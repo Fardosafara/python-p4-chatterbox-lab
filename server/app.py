@@ -54,3 +54,5 @@ def messages_by_id(id):
 
         return make_response( {'deleted': True} , 200)
         
+if __name__ == '__main__':
+    app.run(port=5555, debug=True)
